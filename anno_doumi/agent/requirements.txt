@@ -1,4 +1,6 @@
 numpy
+langchain
+langchain-community
 openai
 openai-whisper
 webrtcvad

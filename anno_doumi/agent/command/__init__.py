@@ -1,1 +1,1 @@
-from command_agent import CommandAgent
+from .command_agent import CommandAgent

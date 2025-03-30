@@ -13,4 +13,7 @@ dependencies = [
     "openai-whisper",
     "webrtcvad",
     "sounddevice",
+    "langchain-community",
+    "langchain-openai",
+    "langgraph"
 ]

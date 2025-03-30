@@ -1,3 +1,6 @@
+# Work in Progress
+
+
 # anno-doumi: ANNO 1800 Voice-Controlled To-Do List
 
 ## Introduction
@@ -18,7 +21,7 @@ This is a voice-controlled To-Do list tool designed to assist with managing task
 ## System Requirements
 - OpenAI API key is required. Set your API key in the environment variable `OPENAI_API_KEY`.
 - Python 3.10+
-- Docker (for containerization)
+- Docker (for containerization) (not tested yet)
 - Dependencies listed in `requirements.txt`
 
 ## System Architecture
@@ -35,7 +38,7 @@ Please note that this project is still under development. Some features are not 
 * Task management functionality.
 
 ## Usage
-1.	Run the server and activate the voice recognition module. 
+1. Run the server and activate the voice recognition module. 
 2. Use voice commands to add tasks to the To-Do list. 
    * Example commands:
      * “Bring cotton from Seoul to Tokyo.” 

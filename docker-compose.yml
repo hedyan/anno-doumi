@@ -5,7 +5,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./anno_doumi/agent:/app
+      - ./anno_doumi/server:/app
 
   doumi-agent:
     build:
@@ -17,3 +17,5 @@ services:
       - doumi-server
     environment:
       - OPENAI_API_KEY=${OPENAI_API_KEY}
+#    devices:  Not for Mac OS
+#      - /dev/snd:/dev/snd  # Not for Mac OS
