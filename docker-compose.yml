@@ -1,0 +1,19 @@
+services:
+  doumi-server:
+    build:
+      context: ./anno_doumi/server
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./anno_doumi/agent:/app
+
+  doumi-agent:
+    build:
+      context: ./anno_doumi/agent
+    volumes:
+      - ./anno_doumi/agent:/app
+      - ~/.cache/whisper:/root/.cache/whisper
+    depends_on:
+      - doumi-server
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}

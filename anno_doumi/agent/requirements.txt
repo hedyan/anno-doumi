@@ -1,0 +1,6 @@
+numpy
+openai
+openai-whisper
+webrtcvad
+sounddevice
+python-dotenv

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anno-doumi"
+version = "0.0.1"
+description = "Anno 1800 note taker with STT & command agent"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "openai",
+    "openai-whisper",
+    "webrtcvad",
+    "sounddevice",
+]
