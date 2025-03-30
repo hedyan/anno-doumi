@@ -5,6 +5,7 @@
 venv/
 *egg-info
 build/
+__pycache__/
 
 *.png
 *.ipynb
